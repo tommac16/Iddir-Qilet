@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahber - Iddir St.Merry Qilet</title>
+    <link rel="icon" id="app-favicon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cg transform='translate(100,100)'%3E%3Cpath d='M-4,-4 L-90,-4 A90,90 0 0 1 -4,-90 Z' fill='%23047857' /%3E%3Cpath d='M-4,-4 L-50,-4 A50,50 0 0 1 -4,-50 Z' fill='%23fcd34d' /%3E%3Cpath d='M4,-4 L90,-4 A90,90 0 0 0 4,-90 Z' fill='%23047857' /%3E%3Cpath d='M4,-4 L50,-4 A50,50 0 0 0 4,-50 Z' fill='%23fcd34d' /%3E%3Cpath d='M4,4 L90,4 A90,90 0 0 1 4,90 Z' fill='%23047857' /%3E%3Cpath d='M4,4 L50,4 A50,50 0 0 1 4,50 Z' fill='%23fcd34d' /%3E%3Cpath d='M-4,4 L-90,4 A90,90 0 0 0 -4,90 Z' fill='%23047857' /%3E%3Cpath d='M-4,4 L-50,4 A50,50 0 0 0 -4,50 Z' fill='%23fcd34d' /%3E%3C/g%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Ethiopic:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Noto Serif Ethiopic', 'serif'],
+            },
+            colors: {
+              brand: {
+                50: '#ecfdf5',  // Light Mint
+                100: '#d1fae5',
+                200: '#a7f3d0',
+                300: '#6ee7b7',
+                400: '#34d399',
+                500: '#10b981', // Emerald 500
+                600: '#059669', // Emerald 600
+                700: '#047857', // Logo Green
+                800: '#065f46',
+                900: '#064e3b', // Dark Green
+              },
+              accent: {
+                400: '#fcd34d', // Logo Yellow
+                500: '#fbbf24', // Amber 400
+                600: '#d97706', // Amber 600
+                700: '#b45309',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #10b981; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #047857; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-50 text-brand-900 font-sans antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
