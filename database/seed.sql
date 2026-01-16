@@ -7,7 +7,7 @@ INSERT INTO app_settings (key, value) VALUES
 
 -- Members
 INSERT INTO members (id, full_name, email, phone, role, status, join_date, balance, avatar_url, gender, password_hash) VALUES
-('m00001', 'Brhane Berihu', 'brhaneb@gmail.com.com', '+251 914 41 15 67', 'ADMIN', 'ACTIVE', CURRENT_DATE - INTERVAL '180 days', 2200.00, 'https://picsum.photos/100/100?random=1', 'MALE', '123456'),
+('m00001', 'Engineer Brhane Berihu', 'birieb2013@gmail.com', '+251 914 41 15 67', 'ADMIN', 'ACTIVE', CURRENT_DATE - INTERVAL '180 days', 2200.00, 'https://picsum.photos/100/100?random=1', 'MALE', 'bb@12345'),
 ('m00002', 'Abebe Kebede', 'abebe.treasurer@example.com', '+251 911 22 33 44', 'TREASURER', 'ACTIVE', CURRENT_DATE - INTERVAL '150 days', 1500.00, 'https://picsum.photos/100/100?random=3', 'MALE', '123456'),
 ('m00003', 'Aster Mulugeta', 'aster.secretary@example.com', '+251 922 44 55 66', 'SECRETARY', 'ACTIVE', CURRENT_DATE - INTERVAL '120 days', 1800.00, 'https://picsum.photos/100/100?random=4', 'FEMALE', '123456'),
 ('m00008', 'Temesgen G/michael', 'tmacbel12@gmail.com.com', '+251 914 82 51 74', 'MEMBER', 'ACTIVE', CURRENT_DATE - INTERVAL '60 days', 2200.00, 'https://picsum.photos/100/100?random=2', 'MALE', '123456');
